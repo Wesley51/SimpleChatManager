@@ -1,0 +1,19 @@
+name: SCM
+version: ${project.version}
+main: me.wesleyh.simplechatmanager.SimpleChatManager
+api-version: 1.18
+authors: [ WesleyH ]
+description: A simple chat manager
+commands:
+  mutechat:
+    description: Mute chat
+    usage: /<command>
+  clearchat:
+    description: Clear chat
+    usage: /<command>
+  slowchat:
+    description: Slow chat
+    usage: /<command>
+  scm:
+    description: Help menu
+    usage: /<command>
